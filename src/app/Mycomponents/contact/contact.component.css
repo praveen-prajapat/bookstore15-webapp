@@ -1,0 +1,9 @@
+.margin{
+    margin-top: 206px;
+    margin-bottom: 206px;
+}
+.non-repeating-bg {
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.9xEq9Oe9KOTQMNCdEMHu-QHaEK&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

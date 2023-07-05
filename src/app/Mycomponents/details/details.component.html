@@ -1,0 +1,33 @@
+<div class="non-repeating-bg">
+    <app-navbar></app-navbar>
+<div *ngIf="sharedService.selectedBook">
+    
+        <div class="my-5">
+            <div class="container">
+                <div class="card mb-3" style="max-width: 800px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img
+                          src="{{sharedService.selectedBook.image}}"
+                          alt="No image"
+                          class="img-fluid rounded-start"
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <p class="card-title">Title: {{sharedService.selectedBook.title}}</p>
+                          <p class="card-title">Author: {{sharedService.selectedBook.author}}</p>
+                          <p class="card-text">price: {{sharedService.selectedBook.price}} </p>
+                          <p class="card-text">Description: {{sharedService.selectedBook.desc}} </p>
+                
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+<app-footer></app-footer>
+
+</div>
